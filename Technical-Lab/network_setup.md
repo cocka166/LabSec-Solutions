@@ -18,6 +18,7 @@ komunikují v interní síti LAN1.
 ### Použitý příkaz (Ubuntu Desktop)
 ```bash
 ping 192.168.100.10
+```
 Výsledek
 Ping byl úspěšný. Bylo potvrzeno:
 
