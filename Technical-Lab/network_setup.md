@@ -28,8 +28,8 @@ správné nastavení IP adres
 
 neblokovaný ICMP provoz
 
-
 Důkaz
+
 ![Ping test](../Screenshots/ping_server.png)
 
 Závěr
