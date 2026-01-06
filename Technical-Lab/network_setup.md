@@ -28,10 +28,10 @@ správné nastavení IP adres
 
 neblokovaný ICMP provoz
 
-Důkaz
+## Důkaz
 
 ![Ping test](../Screenshots/ping_server.png)
 
-Závěr
+## Závěr
 Základní síťová konektivita mezi virtuálními stroji v lab prostředí
 je funkční.
