@@ -19,7 +19,7 @@ komunikují v interní síti LAN1.
 ```bash
 ping 192.168.100.10
 ```
-Výsledek
+## Výsledek
 Ping byl úspěšný. Bylo potvrzeno:
 
 funkční interní síť LAN1
