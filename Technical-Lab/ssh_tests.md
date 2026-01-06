@@ -17,7 +17,7 @@ na Ubuntu Server pomocí SSH.
 
 ### Použitý příkaz (Desktop)
 ```bash
-ssh uživatel@192.168.100.10
+ssh admin@192.168.100.10
 ```
 ## Výsledek
 Přihlášení bylo úspěšné
