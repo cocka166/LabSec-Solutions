@@ -33,4 +33,4 @@ Směrovací tabulka obsahuje správné cesty pro LAN1
 
 ## Závěr
 Konfigurace síťových adaptérů a směrovací tabulky na serveru je
-správná a připravená
+správná a připravená.
