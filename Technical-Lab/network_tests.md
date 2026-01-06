@@ -21,16 +21,16 @@ na Ubuntu Serveru.
 ip a
 ip route
 ```
-##Výsledek
+## Výsledek
 Ověřen správný IP rozsah pro interní síť
 
 Ověřena přítomnost loopback a interního adaptéru
 
 Směrovací tabulka obsahuje správné cesty pro LAN1
 
-##Důkaz
+## Důkaz
 ![Ping test](../Screenshots/ip_route.png)
 
-##Závěr
+## Závěr
 Konfigurace síťových adaptérů a směrovací tabulky na serveru je
 správná a připravená
