@@ -17,7 +17,7 @@ v interní síti LAN1.
 
 ### Použitý příkaz (Ubuntu Desktop):
 
-```bash
+bash
 ping 192.168.100.10
 Výsledek
 Ping byl úspěšný, což potvrzuje:
