@@ -25,10 +25,10 @@ pro technické znalosti v oblasti IT a GRC.
 | `Screenshots/` | Snímky obrazovky dokazující jednotlivé testy |
 
 ## Struktura labu
-- Ubuntu Server: 2 GB RAM, IP 192.168.100.10
-- Ubuntu Desktop: 4 GB RAM, IP 192.168.100.20
-- Windows 11: host, používá NAT a bridged adaptér pro internet
-- Interní síť LAN1 propojuje VM pro testování komunikace
+- **Ubuntu Server:** 2 GB RAM, IP 192.168.100.10
+- **Ubuntu Desktop:** 4 GB RAM, IP 192.168.100.20
+- **Windows 11:** host, používá NAT a bridged adaptér pro internet
+- **Interní síť LAN1:** propojuje VM pro testování komunikace
 
 ## Cíl
 - Ověřit základní síťovou konektivitu
