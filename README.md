@@ -48,5 +48,3 @@ pro technické znalosti v oblasti IT a GRC.
 
 ---
 
-**LabSec Solutions – Technical Lab**  
-Vhodné pro demonstraci technických dovedností v IT, síťové administraci a GRC.
