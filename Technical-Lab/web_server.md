@@ -33,3 +33,5 @@ http://192.168.100.10
 ## Závěr
 Webový server je funkční a dostupný z interní sítě LAN1.
 Lab prostředí je připraveno pro další testy síťových služeb.
+
+[← Zpět na hlavní přehled](../README.md)
