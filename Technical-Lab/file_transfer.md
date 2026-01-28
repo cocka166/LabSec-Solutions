@@ -31,3 +31,5 @@ Přenos je šifrovaný přes SSH
 
 ## Závěr
 Přenos souborů mezi virtuálními stroji funguje správně.
+
+[← Zpět na hlavní přehled](../README.md)
