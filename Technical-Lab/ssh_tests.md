@@ -31,3 +31,5 @@ SSH spojení je stabilní a připravené pro další přenosy souborů
 
 ## Závěr
 SSH přístup mezi virtuálními stroji funguje správně.
+
+[← Zpět na hlavní přehled](../README.md)
