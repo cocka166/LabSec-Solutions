@@ -1,50 +1,41 @@
 # Technical Lab – LabSec Solutions
 
-Tento repozitář dokumentuje testovací lab pro ověření základní
-síťové a bezpečnostní konfigurace mezi virtuálními stroji
-v interní síti LAN1. Cílem je vytvořit portfolio-ready dokumentaci
-pro technické znalosti v oblasti IT a GRC.
+Tento repozitář slouží jako technická dokumentace k simulaci interní sítě LAN1. Projekt demonstruje schopnost konfigurace síťových služeb, zabezpečení koncových bodů a analýzy síťového provozu – klíčové kompetence pro role v IT Security a GRC.
 
-## Použité systémy
-- Ubuntu Server
-- Ubuntu Desktop
-- Windows 11 (host)
-- Interní síť: LAN1 (VirtualBox Internal Network)
-- Nástroje: SSH, SCP, Apache2, UFW, Wireshark
+## Topologie sítě
+Prostředí je postaveno na platformě VirtualBox v izolovaném segmentu.
 
-## Obsah repozitáře
-
-| Soubor | Popis |
-|--------|-------|
-| `network_setup.md` | Základní konfigurace sítě a test ping |
-| `ssh_tests.md` | Test SSH přihlášení mezi Desktopem a Serverem |
-| `file_transfer.md` | Přenos souborů pomocí SCP |
-| `web_server.md` | Test dostupnosti Apache web serveru |
-| `firewall.md` | Kontrola stavu firewallu (UFW) |
-| `wireshark.md` | Zachycení ICMP provozu pomocí Wireshark |
-| `Screenshots/` | Snímky obrazovky dokazující jednotlivé testy |
-
-## Struktura labu
-- **Ubuntu Server:** 2 GB RAM, IP 192.168.100.10
-- **Ubuntu Desktop:** 4 GB RAM, IP 192.168.100.20
-- **Windows 11:** host, používá NAT a bridged adaptér pro internet
-- **Interní síť LAN1:** propojuje VM pro testování komunikace
-
-## Cíl
-- Ověřit základní síťovou konektivitu
-- Testovat vzdálený přístup a přenos souborů
-- Kontrolovat stav firewallu
-- Zachytit síťový provoz pro diagnostiku
-- Vytvořit dokumentaci vhodnou pro portfolio a GRC
-
-## Jak používat repozitář
-1. Otevřít jednotlivé `.md` soubory pro detailní popis testů.  
-2. Snímky obrazovky jsou umístěny ve složce `Screenshots/`.  
-3. Každý test obsahuje:
-   - Použitý příkaz
-   - Výsledek
-   - Důkaz (screenshot)
-   - Závěr
+* **Ubuntu Server (192.168.100.10):** Hostitel služeb Apache2 a SSH.
+* **Ubuntu Desktop (192.168.100.20):** Klientská stanice a monitorovací uzel.
+* **Segment LAN1:** Interní virtuální síť (bez přístupu zvenčí).
 
 ---
 
+## Dokumentace testů a konfigurací
+
+Kliknutím na odkaz se dostanete k detailnímu popisu, použitým příkazům a screenshotům.
+
+| Fáze Labu | Popis aktivity | Dokumentace |
+| :--- | :--- | :--- |
+| **1. Network Setup** | Nastavení statických IP adres a rozhraní | [Protokol zde](./network_setup.md) |
+| **2. Network Connectivity** | Testy dostupnosti a ICMP komunikace | [Protokol zde](./network_tests.md) |
+| **3. SSH Access** | Konfigurace a ověření vzdálené správy | [Protokol zde](./ssh_tests.md) |
+| **4. File Transfer** | Zabezpečený přenos dat mezi uzly (SCP) | [Protokol zde](./file_transfer.md) |
+| **5. Web Server** | Nasazení Apache a kontrola HTTP provozu | [Protokol zde](./web_server.md) |
+| **6. Firewall (UFW)** | Hardening serveru a definice pravidel | [Protokol zde](./firewall.md) |
+| **7. Traffic Analysis** | Analýza paketů v reálném čase (Wireshark) | [Protokol zde](./wireshark.md) |
+
+---
+
+## 🛡️ GRC Compliance Checklist (Ukázka)
+V rámci labu byly aplikovány tyto kontrolní mechanismy:
+- [x] **Identifikace aktiv:** Definována statická IP schémata.
+- [x] **Řízení přístupu:** SSH omezeno a testováno.
+- [x] **Ochrana sítě:** Firewall (UFW) aktivován a nastaven na principu "Default Deny".
+- [x] **Monitoring:** Protokolování síťových toků pomocí Wireshark.
+
+## 📸Důkazní materiály
+Snímky obrazovky prokazující úspěšné provedení testů naleznete v adresáři `/screenshots`. Odkazy na konkrétní screenshoty jsou také přímo v jednotlivých `.md` souborech.
+
+---
+*Tento lab slouží jako evidence technických dovedností pro účely profesního portfolia.*
