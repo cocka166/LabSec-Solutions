@@ -15,15 +15,15 @@ Prostředí je postaveno na platformě VirtualBox v izolovaném segmentu.
 
 Kliknutím na odkaz se dostanete k detailnímu popisu, použitým příkazům a screenshotům.
 
-| Fáze Labu | Popis aktivity | Dokumentace |
+| Fáze projektu | Popis aktivity | Dokumentace |
 | :--- | :--- | :--- |
-| **1. Network Setup** | Nastavení statických IP adres a rozhraní | [Protokol zde](./network_setup.md) |
-| **2. Network Connectivity** | Testy dostupnosti a ICMP komunikace | [Protokol zde](./network_tests.md) |
-| **3. SSH Access** | Konfigurace a ověření vzdálené správy | [Protokol zde](./ssh_tests.md) |
-| **4. File Transfer** | Zabezpečený přenos dat mezi uzly (SCP) | [Protokol zde](./file_transfer.md) |
-| **5. Web Server** | Nasazení Apache a kontrola HTTP provozu | [Protokol zde](./web_server.md) |
-| **6. Firewall (UFW)** | Hardening serveru a definice pravidel | [Protokol zde](./firewall.md) |
-| **7. Traffic Analysis** | Analýza paketů v reálném čase (Wireshark) | [Protokol zde](./wireshark.md) |
+| **Příprava sítě** | Konfigurace rozhraní a statických IP adres | [network_setup.md](./Technical-Lab/LabSec-Solutions/network_setup.md) |
+| **Konektivita** | Ověření dostupnosti uzlů v rámci LAN1 | [network_tests.md](./Technical-Lab/LabSec-Solutions/network_tests.md) |
+| **Vzdálený přístup** | Konfigurace SSH a testování spojení | [ssh_tests.md](./Technical-Lab/LabSec-Solutions/ssh_tests.md) |
+| **Přenos dat** | Bezpečné kopírování souborů přes SCP | [file_transfer.md](./Technical-Lab/LabSec-Solutions/file_transfer.md) |
+| **Služby** | Nasazení Apache2 a test HTTP protokolu | [web_server.md](./Technical-Lab/LabSec-Solutions/web_server.md) |
+| **Bezpečnost** | Nastavení firewallu UFW a hardening portů | [firewall.md](./Technical-Lab/LabSec-Solutions/firewall.md) |
+| **Analýza** | Monitoring provozu a zachycení paketů | [wireshark.md](./Technical-Lab/LabSec-Solutions/wireshark.md) |
 
 ---
 
