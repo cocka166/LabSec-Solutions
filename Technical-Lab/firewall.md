@@ -32,3 +32,5 @@ Ostatní porty jsou blokovány, podle konfigurace
 ## Závěr
 Firewall na serveru je funkční a poskytuje základní ochranu
 síťového prostředí labu.
+
+[← Zpět na hlavní přehled](../README.md)
