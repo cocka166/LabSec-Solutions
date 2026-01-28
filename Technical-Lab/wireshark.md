@@ -34,3 +34,5 @@ v interní síti LAN1 a že lze vizualizovat pakety pomocí Wireshark.
 Wireshark potvrzuje správnou funkci interní sítě LAN1 a průchod
 ICMP paketů mezi Desktopem a Serverem.
 Lab prostředí je připraveno pro další analýzu síťového provozu.
+
+[← Zpět na hlavní přehled](../README.md)
