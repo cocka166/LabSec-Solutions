@@ -35,3 +35,5 @@ neblokovaný ICMP provoz
 ## Závěr
 Základní síťová konektivita mezi virtuálními stroji v lab prostředí
 je funkční.
+
+[← Zpět na hlavní přehled](../README.md)
