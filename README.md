@@ -17,13 +17,13 @@ Kliknutím na odkaz se dostanete k detailnímu popisu, použitým příkazům a 
 
 | Fáze projektu | Popis aktivity | Dokumentace |
 | :--- | :--- | :--- |
-| **Příprava sítě** | Konfigurace rozhraní a statických IP adres | [network_setup.md](./Technical-Lab/LabSec-Solutions/network_setup.md) |
-| **Konektivita** | Ověření dostupnosti uzlů v rámci LAN1 | [network_tests.md](./Technical-Lab/LabSec-Solutions/network_tests.md) |
-| **Vzdálený přístup** | Konfigurace SSH a testování spojení | [ssh_tests.md](./Technical-Lab/LabSec-Solutions/ssh_tests.md) |
-| **Přenos dat** | Bezpečné kopírování souborů přes SCP | [file_transfer.md](./Technical-Lab/LabSec-Solutions/file_transfer.md) |
-| **Služby** | Nasazení Apache2 a test HTTP protokolu | [web_server.md](./Technical-Lab/LabSec-Solutions/web_server.md) |
-| **Bezpečnost** | Nastavení firewallu UFW a hardening portů | [firewall.md](./Technical-Lab/LabSec-Solutions/firewall.md) |
-| **Analýza** | Monitoring provozu a zachycení paketů | [wireshark.md](./Technical-Lab/LabSec-Solutions/wireshark.md) |
+| **Příprava sítě** | Konfigurace rozhraní a statických IP adres | [network_setup.md](./Technical-Lab/network_setup.md) |
+| **Konektivita** | Ověření dostupnosti uzlů v rámci LAN1 | [network_tests.md](./Technical-Lab/network_tests.md) |
+| **Vzdálený přístup** | Konfigurace SSH a testování spojení | [ssh_tests.md](./Technical-Lab/ssh_tests.md) |
+| **Přenos dat** | Bezpečné kopírování souborů přes SCP | [file_transfer.md](./Technical-Lab/file_transfer.md) |
+| **Služby** | Nasazení Apache2 a test HTTP protokolu | [web_server.md](./Technical-Lab/web_server.md) |
+| **Bezpečnost** | Nastavení firewallu UFW a hardening portů | [firewall.md](./Technical-Lab/firewall.md) |
+| **Analýza** | Monitoring provozu a zachycení paketů | [wireshark.md](./Technical-Lab/wireshark.md) |
 
 ---
 
