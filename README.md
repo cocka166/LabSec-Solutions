@@ -24,7 +24,7 @@ Kliknutím na odkaz se dostanete k detailnímu popisu, použitým příkazům a 
 | **Služby** | Nasazení Apache2 a test HTTP protokolu | [web_server.md](./Technical-Lab/web_server.md) |
 | **Bezpečnost** | Nastavení firewallu UFW a hardening portů | [firewall.md](./Technical-Lab/firewall.md) |
 | **Analýza** | Monitoring provozu a zachycení paketů | [wireshark.md](./Technical-Lab/wireshark.md) |
-| **Zabezpečení** | Hardening SSH přístupu a konfigurace firewallu UFW | [ssh_access.md](./Technical-Lab/ssh-ufw.md) |
+| **Zabezpečení** | Hardening SSH přístupu a konfigurace firewallu UFW | [ssh_access.md](./Technical-Lab/ssh_access.md) |
 
 ---
 
