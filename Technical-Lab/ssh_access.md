@@ -29,6 +29,8 @@ Relace: Příkaz who potvrzuje, že uživatel admin je připojen z autorizované
 
 ![Ping test](../Screenshots/ufw_status.png)
 
+![Ping test](../Screenshots/who.png)
+
 ## Závěr
 Implementace SSH klíčů ve spojení s firewallem UFW úspěšně minimalizuje riziko neautorizovaného přístupu. Server je nyní nakonfigurován podle principu nejnižších privilegií (Least Privilege) na úrovni síťového přístupu.
 
