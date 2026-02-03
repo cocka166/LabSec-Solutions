@@ -23,8 +23,9 @@ Firewall: UFW je aktivní (Status: active) a povoluje pouze nezbytný provoz na 
 
 Relace: Příkaz who potvrzuje, že uživatel admin je připojen z autorizované IP adresy Desktopu.
 
-##Důkaz
-##Závěr
+## Důkaz
+
+## Závěr
 Implementace SSH klíčů ve spojení s firewallem UFW úspěšně minimalizuje riziko neautorizovaného přístupu. Server je nyní nakonfigurován podle principu nejnižších privilegií (Least Privilege) na úrovni síťového přístupu.
 
 [← Zpět na hlavní přehled](../README.md)
