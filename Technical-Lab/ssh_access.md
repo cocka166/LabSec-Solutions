@@ -15,6 +15,7 @@ Bash
 ```ssh admin@192.168.100.10```
 
 ```sudo ufw status```
+
 ```who```
 ## Výsledek
 Autentizace: Přihlášení proběhlo úspěšně bez výzvy k zadání hesla (použit Ed25519 klíč).
