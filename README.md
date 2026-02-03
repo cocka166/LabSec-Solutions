@@ -28,13 +28,6 @@ Kliknutím na odkaz se dostanete k detailnímu popisu, použitým příkazům a 
 
 ---
 
-## 🛡️ GRC Compliance Checklist (Ukázka)
-V rámci labu byly aplikovány tyto kontrolní mechanismy:
-- [x] **Identifikace aktiv:** Definována statická IP schémata.
-- [x] **Řízení přístupu:** SSH omezeno a testováno.
-- [x] **Ochrana sítě:** Firewall (UFW) aktivován a nastaven na principu "Default Deny".
-- [x] **Monitoring:** Protokolování síťových toků pomocí Wireshark.
-
 ## 📸Důkazní materiály
 Snímky obrazovky prokazující úspěšné provedení testů naleznete v adresáři `/screenshots`. Odkazy na konkrétní screenshoty jsou také přímo v jednotlivých `.md` souborech.
 
