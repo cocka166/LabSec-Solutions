@@ -29,7 +29,6 @@ SSH spojení je stabilní a připravené pro další přenosy souborů
 ## Důkaz
 ![Ping test](../Screenshots/ssh_handshake.png)
 
-![Ping test](../Screenshots/ufw_status.png)
 ## Závěr
 SSH přístup mezi virtuálními stroji funguje správně.
 
