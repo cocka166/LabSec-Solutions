@@ -30,7 +30,7 @@ Kliknutím na odkaz se dostanete k detailnímu popisu, použitým příkazům a 
 
 ---
 
-## 📸Důkazní materiály
+## Důkazní materiály
 Snímky obrazovky prokazující úspěšné provedení testů naleznete v adresáři `/screenshots`. Odkazy na konkrétní screenshoty jsou také přímo v jednotlivých `.md` souborech.
 
 ---
