@@ -25,6 +25,8 @@ Kliknutím na odkaz se dostanete k detailnímu popisu, použitým příkazům a 
 | **Bezpečnost** | Nastavení firewallu UFW a hardening portů | [firewall.md](./Technical-Lab/firewall.md) |
 | **Analýza** | Monitoring provozu a zachycení paketů | [wireshark.md](./Technical-Lab/wireshark.md) |
 | **Zabezpečení** | Hardening SSH přístupu a konfigurace firewallu UFW | [ssh_access.md](./Technical-Lab/ssh_access.md) |
+| **Správa služeb** | Diagnostika a oprava konfigurace webového serveru Nginx | [nginx_recovery.md](./Technical-Lab/nginx_configuration.md) |
+
 
 ---
 
