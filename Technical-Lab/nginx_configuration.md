@@ -28,10 +28,13 @@ Bash
 ```sudo journalctl -u nginx --no-pager | tail -n 20```
 
 2. Validace konfigurace
+
 Příkaz pro kontrolu syntaxe odhalil konkrétní chybu v konfiguračním souboru:
 
 ```sudo nginx -t```
+
 3. Oprava a restart služby
+   
 Po odstranění chyby v souboru (např. v /etc/nginx/nginx.conf) byla služba znovu nahrána:
 
 ```sudo systemctl restart nginx```
