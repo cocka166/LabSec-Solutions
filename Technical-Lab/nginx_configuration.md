@@ -23,22 +23,18 @@ Nejprve bylo nutné zjistit, proč služba neběží. K tomu slouží standardn�
 
 Bash
 
-```Bash
-sudo systemctl status nginx```
+```sudo systemctl status nginx```
 
-```Bash
-sudo journalctl -u nginx --no-pager | tail -n 20```
+```sudo journalctl -u nginx --no-pager | tail -n 20```
 
 2. Validace konfigurace
 Příkaz pro kontrolu syntaxe odhalil konkrétní chybu v konfiguračním souboru:
 
-```Bash
-sudo nginx -t```
+```sudo nginx -t```
 3. Oprava a restart služby
 Po odstranění chyby v souboru (např. v /etc/nginx/nginx.conf) byla služba znovu nahrána:
 
-```Bash
-sudo systemctl restart nginx```
+```sudo systemctl restart nginx```
 
 ## Výsledek
 Autentizace: Služba Nginx je nyní plně funkční a v aktivním stavu (active (running)).
